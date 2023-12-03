@@ -1,0 +1,8 @@
+{
+  "extension": ["js", "ts"],
+  "spec": ["src/tests/routes/*.spec.*"],
+  "require": ["ts-node/register", "tsconfig-paths/register", "dotenv/config"],
+  "recursive": true,
+  "timeout": 10000,
+  "watch-files": ["tests/**/*.js", "tests/**/*.ts"]
+}
